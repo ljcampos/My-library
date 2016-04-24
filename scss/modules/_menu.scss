@@ -1,0 +1,29 @@
+header {
+	background: rgba($sandy-brown, .5);
+	& h1 {
+		color: rgb(163, 130, 78);
+	}
+}
+.menu {
+	border-bottom: 2px solid $white;
+	& ul {
+		list-style: none;
+		& li {
+			display: inline-block;
+			line-height: 3;
+			padding: 0 2em;
+			text-transform: capitalize;
+
+			& a {
+				color: $white;
+				display: block;
+				font-weight: bold;
+			}
+			& a:hover {
+				color: $blue2;
+				text-decoration: underline;
+			}
+		}
+	}
+	//@include menu-horizontal(medium);
+}

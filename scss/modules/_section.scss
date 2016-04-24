@@ -1,0 +1,39 @@
+section {
+	padding: 5em;
+}
+#resources-conatiner {
+	//background: $teal;
+	text-align: center;
+	@include desde-hasta(small, medium) {
+		@include cuadricula(div, 1, 6%);
+	}
+
+	@include desde-hasta(medium, large) {
+		@include cuadricula(div, 3, 6%);
+	}
+
+	@include desde(large) {
+		@include cuadricula(div, 4, 6%);
+	}
+}
+
+#resources-conatiner > div {
+	& a {
+		display: block;
+		color: $blue2;
+	}
+
+	& a:hover {
+		color: rgb(163, 130, 78);
+		text-decoration: underline;
+	}
+}
+
+.resoucer-title {
+	text-transform: uppercase;
+}
+
+.resoucer-description {
+	border-top: 2px solid $teal;
+	font-size: 'Time New Roman';
+}
