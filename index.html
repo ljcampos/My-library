@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>My resources</title>
 	<link rel="stylesheet" href="css/ed-grid.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
 	<!-- <link rel="stylesheet" href="css/main.css"> -->
 </head>
 <body class=''>
@@ -26,54 +27,22 @@
 			</div>
 		</div>
 	</header>
+	<!-- <section class='ed-container container'>
+		<div class='ed-item' id="item"></div>
+	</section> -->
 	<section>
 		<div class="ed-container">
 			<div class="ed-item" id='resources-conatiner'>
 				<div>
-					<a href="#">
+					<a href="resources/147180-programmez-en-oriente-objet-en-php.pdf">
 						<img src="http://lorempixel.com/200/200/" alt="image-book">
 					</a>
-					<a href="#" class='resoucer-title'><strong>nombre</strong></a>
-					<p class='resoucer-description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, corrupti fugiat at amet vitae. Ab voluptas facere omnis laboriosam tenetur ratione cum, ea accusamus consequatur aut exercitationem fugiat, aspernatur dolor.</p>
-				</div>
-				<div>
-					<a href="#">
-						<img src="http://lorempixel.com/200/200/" alt="image-book">
-					</a>
-					<a href="#" class='resoucer-title'><strong>nombre</strong></a>
-					<p class='resoucer-description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, corrupti fugiat at amet vitae. Ab voluptas facere omnis laboriosam tenetur ratione cum, ea accusamus consequatur aut exercitationem fugiat, aspernatur dolor.</p>
-				</div>
-				<div>
-					<a href="#">
-						<img src="http://lorempixel.com/200/200/" alt="image-book">
-					</a>
-					<a href="#" class='resoucer-title'><strong>nombre</strong></a>
-					<p class='resoucer-description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, corrupti fugiat at amet vitae. Ab voluptas facere omnis laboriosam tenetur ratione cum, ea accusamus consequatur aut exercitationem fugiat, aspernatur dolor.</p>
-				</div>
-				<div>
-					<a href="#">
-						<img src="http://lorempixel.com/200/200/" alt="image-book">
-					</a>
-					<a href="#" class='resoucer-title'><strong>nombre</strong></a>
-					<p class='resoucer-description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, corrupti fugiat at amet vitae. Ab voluptas facere omnis laboriosam tenetur ratione cum, ea accusamus consequatur aut exercitationem fugiat, aspernatur dolor.</p>
-				</div>
-				<div>
-					<a href="#">
-						<img src="http://lorempixel.com/200/200/" alt="image-book">
-					</a>
-					<a href="#" class='resoucer-title'><strong>nombre</strong></a>
-					<p class='resoucer-description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, corrupti fugiat at amet vitae. Ab voluptas facere omnis laboriosam tenetur ratione cum, ea accusamus consequatur aut exercitationem fugiat, aspernatur dolor.</p>
-				</div>
-				<div>
-					<a href="#">
-						<img src="http://lorempixel.com/200/200/" alt="image-book">
-					</a>
-					<a href="#" class='resoucer-title'><strong>nombre</strong></a>
+					<a href="resources/147180-programmez-en-oriente-objet-en-php.pdf" class='resoucer-title'><strong>nombre 1</strong></a>
+					<a href="resources/147180-programmez-en-oriente-objet-en-php.pdf"><i class="fa fa-eye" aria-hidden="true"></i></a>
 					<p class='resoucer-description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, corrupti fugiat at amet vitae. Ab voluptas facere omnis laboriosam tenetur ratione cum, ea accusamus consequatur aut exercitationem fugiat, aspernatur dolor.</p>
 				</div>
 			</div>
 		</div>
-		<!-- <div id="example1"></div> -->
 	</section>
 	<footer>
 		<div class="ed-container">
@@ -83,7 +52,19 @@
 		</div>
 	</footer>
 	<!-- Scripts -->
+	<script src='js/jquery-2.2.2.js'></script>
 	<script src='js/pdfobject.js'></script>
-	<script>PDFObject.embed("resources/147180-programmez-en-oriente-objet-en-php.pdf", "#example1");</script>
+	<script>
+		/*$(document).ready(function() {
+			$('a').on('click', function(event) {
+				event.preventDefault();
+				var  $target = event.currentTarget.pathname;
+				//var $host = event.currentTarget.hostname;
+				//location.href = '/read.html' + $target;
+				//PDFObject.embed($target, "#item");
+			});
+		});*/
+		//PDFObject.embed("resources/147180-programmez-en-oriente-objet-en-php.pdf", "#example1");
+	</script>
 </body>
 </html>

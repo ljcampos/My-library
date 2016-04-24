@@ -1,6 +1,15 @@
 section {
 	padding: 5em;
 }
+
+.container {
+	position: relative;
+	background: red;
+}
+#item {
+	position: absolute;
+	width: 100%;
+}
 #resources-conatiner {
 	//background: $teal;
 	text-align: center;

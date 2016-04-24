@@ -3749,12 +3749,24 @@ section {
   padding: 5em;
 }
 
-/* line 4, ../scss/modules/_section.scss */
+/* line 5, ../scss/modules/_section.scss */
+.container {
+  position: relative;
+  background: red;
+}
+
+/* line 9, ../scss/modules/_section.scss */
+#item {
+  position: absolute;
+  width: 100%;
+}
+
+/* line 13, ../scss/modules/_section.scss */
 #resources-conatiner {
   text-align: center;
 }
 @media screen and (min-width: 300px) and (max-width: 767px) {
-  /* line 4, ../scss/modules/_section.scss */
+  /* line 13, ../scss/modules/_section.scss */
   #resources-conatiner {
     display: flex;
     flex-wrap: wrap;
@@ -3768,7 +3780,7 @@ section {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 4, ../scss/modules/_section.scss */
+  /* line 13, ../scss/modules/_section.scss */
   #resources-conatiner {
     display: flex;
     flex-wrap: wrap;
@@ -3782,7 +3794,7 @@ section {
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 4, ../scss/modules/_section.scss */
+  /* line 13, ../scss/modules/_section.scss */
   #resources-conatiner {
     display: flex;
     flex-wrap: wrap;
@@ -3796,23 +3808,23 @@ section {
   }
 }
 
-/* line 21, ../scss/modules/_section.scss */
+/* line 30, ../scss/modules/_section.scss */
 #resources-conatiner > div a {
   display: block;
   color: #3D77A0;
 }
-/* line 26, ../scss/modules/_section.scss */
+/* line 35, ../scss/modules/_section.scss */
 #resources-conatiner > div a:hover {
   color: #a3824e;
   text-decoration: underline;
 }
 
-/* line 32, ../scss/modules/_section.scss */
+/* line 41, ../scss/modules/_section.scss */
 .resoucer-title {
   text-transform: uppercase;
 }
 
-/* line 36, ../scss/modules/_section.scss */
+/* line 45, ../scss/modules/_section.scss */
 .resoucer-description {
   border-top: 2px solid #008080;
   font-size: 'Time New Roman';
